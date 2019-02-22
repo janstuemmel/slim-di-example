@@ -1,0 +1,5 @@
+
+ The following SQL statements will be executed:
+
+     CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL);
+     CREATE UNIQUE INDEX UNIQ_1483A5E9E7927C74 ON users (email);
